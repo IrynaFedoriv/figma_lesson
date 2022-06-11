@@ -1,0 +1,199 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul, 
+ol {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.nav {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+/* робити лінію під розділом навігації */
+.nav:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #828282;
+    box-shadow: 0px 2px 5px #00000040;
+}
+
+.menu {
+    padding: 15px 0;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.menu__item {
+    display: inline-block;
+    width: calc(20% - 4px);
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    text-shadow: 0px 2px 2px #00000052;
+    transition: color 0.25s linear;
+}
+
+.menu__link:hover {
+    transform: translateX(7px);
+    color: #070707;
+}
+
+.banner__title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.banner_img {
+    width: 940px;
+    margin-bottom: 100px;
+}
+
+.about {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #F6F6F6;
+    width: 100%;
+    padding-bottom: 60px; 
+}
+
+.section__title {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 46px;   
+    color: #070707;
+    padding-top: 100px;
+    margin: 0 auto 30px auto;
+}
+
+.about__item {
+    margin: 0 auto 40px auto;
+}
+
+.skills {
+    font-size: 18px;
+    margin: 0 auto 80px auto;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 60px;
+    max-width: 940px; 
+}
+
+.skills__item {
+    margin-bottom: 80px;
+}
+
+.skills_list__item {
+    display: inline-block;
+    width: calc(24% + 5px);
+}
+
+.figure__skills {
+    margin: 0 auto;
+    display: table;
+}
+
+.skills__img {
+    margin-bottom: 20px;
+}
+
+.figcaption__skills {
+    display: table-caption;
+    caption-side: bottom;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    margin-bottom: 60px;
+    height: 30px;
+}
+
+.portfolio {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #F6F6F6;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.portfolio__title {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 46px;   
+    color: #070707;
+    margin: 0 auto 70px auto;
+}
+
+.figure__portfolio {
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.figcaption__portfolio {
+    font-size: 18px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 160px;
+}
+
+.contacts__item {
+    width: 280px;
+    font-size: 18px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.footer__button {
+    background-color: #070707;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    width: 180px;
+    padding: 0;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+
+.contacts__links {
+    width: 340px;
+    margin: 0 auto 40px auto;
+}
+
+.contacts__links__item {
+    display: inline-block;
+    width: calc(24%);
+}
+
+.like {
+    font-size: 14px;
+    color: #828282;
+    display: inline;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif; 
+}
